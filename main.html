@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Shopping & Holiday List</title>
 </head>
 
 <body>
-	<ol data-ns-test="shoppingList">
-	<li>1</li>
-	<li>2</li>
-	<li>3</li></ol>
-	<ul data-ns-test="holidayList">
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
-	</ul>
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- Ordered List for Shopping List -->
+  <ol>
+    <li data-ns-test="shoppingList">Apples</li>
+    <li data-ns-test="shoppingList">Bread</li>
+    <li data-ns-test="shoppingList">Milk</li>
+  </ol>
 
+  <!-- Unordered List for Holiday List -->
+  <ul>
+    <li data-ns-test="holidayList">New Year's Eve</li>
+    <li data-ns-test="holidayList">Christmas</li>
+    <li data-ns-test="holidayList">Diwali</li>
+  </ul>
+
+  <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
